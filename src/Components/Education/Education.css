@@ -1,0 +1,30 @@
+.background{
+    background-color: #373A40;
+    height: 100vh;
+    display: flex;
+}
+
+.heading-edu{
+    display: flex;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 80px;
+    color: white;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div{
+    display: flex;
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
