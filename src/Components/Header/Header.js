@@ -6,10 +6,10 @@ export default function Header() {
         <div>
             <nav className='d-flex justify-content-end nav'>
                 <ul className='ul-div'>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/'}><li>Home</li></Link>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"/Education"}><li>Education</li></Link>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Project'}><li>Projects</li></Link>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Contact'}><li>Contact</li></Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/'}><li className='list'>Home</li></Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"/Education"}><li className='list'>Education</li></Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Project'}><li className='list'>Projects</li></Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Contact'}><li className='list'>Contact</li></Link>
                 </ul>
             </nav>
         </div>

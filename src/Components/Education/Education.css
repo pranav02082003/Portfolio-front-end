@@ -11,6 +11,9 @@
     margin-left: 80px;
     color: white;
 }
+.heading-edu:hover{
+    color: aqua;
+}
 
 .first-div{
     display: flex;

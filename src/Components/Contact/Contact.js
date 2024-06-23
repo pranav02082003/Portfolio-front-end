@@ -23,7 +23,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 class="fs-2  heading-contact">Phone</h3>
-                                        <h4 className='heading-contact'>+918886412912</h4>
+                                        <h4 className='heading-contact list'>+918886412912</h4>
                                     </div>
                                 </div>
                                 
@@ -35,7 +35,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 class="fs-2 heading-contact">GitHub</h3>
-                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://github.com/pranav02082003"}> <h4 className='heading-contact'>pranav02082003</h4></Link>
+                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://github.com/pranav02082003"}> <h4 className='heading-contact list'>pranav02082003</h4></Link>
                                     </div>
                                 </div>
                                 <div class="col d-flex align-items-start">
@@ -46,7 +46,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 class="fs-2 heading-contact">LinkedIn</h3>
-                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://www.linkedin.com/in/pranav-dunna-518665247/"}><h4 className='heading-contact'>Pranav Dunna</h4></Link>
+                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://www.linkedin.com/in/pranav-dunna-518665247/"}><h4 className='heading-contact list'>Pranav Dunna</h4></Link>
 
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <h3 class="fs-2 heading-contact">Mail</h3>
-                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://mail.google.com/mail/u/0/?ogbl#inbox?compose=DmwnWrRpdtksfcKNXfbnCxBCbPnjPNBtRTLVJKgNKNSFlDmrRcJpvfGLZqWQqTGLkXZXrpFVwMVv"}><h4 className='heading-contact'>luckypranav47@gmail.com</h4></Link>
+                                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://mail.google.com/mail/u/0/?ogbl#inbox?compose=DmwnWrRpdtksfcKNXfbnCxBCbPnjPNBtRTLVJKgNKNSFlDmrRcJpvfGLZqWQqTGLkXZXrpFVwMVv"}><h4 className='heading-contact list'>luckypranav47@gmail.com</h4></Link>
                                     </div>
                                 </div>
                                 

@@ -66,6 +66,10 @@
     margin-top: 5px;
 }
 
+.list:hover{
+    color: aqua;
+}
+
 .main{
     background-color: #373A40;
     display: flex;
