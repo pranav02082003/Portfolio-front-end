@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Header from '../Header/Header'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -24,12 +25,16 @@ export default function Home() {
                             apply them effectively. Strong problem-solving and analytical skills, complemented by excellent
                             teamwork and communication abilities. Seeking opportunities to enhance skills and contribute to
                             impactful projects in the tech industry</p>
-                            
+
+                    </div>
+                    <div className='button'>
+                        <Link to={"https://drive.google.com/file/d/1GR1yQKJ_Zd5_rzJegFowL1GnDcacSQQL/view?usp=drive_link"}><button type="button" class="btn btn-info">View Resume</button></Link>
                     </div>
                 </div>
                 <div>
                     <img className='img' src='https://cdn.marvel.com/content/1x/ironman2_lob_mas_hlf_01_1.jpg' alt='profile' />
                 </div>
+
             </div>
 
         </div>

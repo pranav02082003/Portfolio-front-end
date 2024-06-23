@@ -36,6 +36,13 @@
     color: white;
 }
 
+.button{
+        display: flex;
+        font-weight: bolder;
+        margin-left: 80px;
+        color: white;
+}
+
 .paragraph{
     margin-left: 80px;
     color: white;
