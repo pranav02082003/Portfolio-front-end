@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    gap: 10px;
+}
+
+.paragraph-contact{
+    margin-left: 80px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    font-size: 50px;
+
+}
+
+.about{
+    color: white;
+}
+
+.heading-contact{
+    color: white;
+    font-weight: bolder;
+}

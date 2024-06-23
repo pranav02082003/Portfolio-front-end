@@ -8,8 +8,8 @@ export default function Header() {
                 <ul className='ul-div'>
                     <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/'}><li>Home</li></Link>
                     <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"/Education"}><li>Education</li></Link>
-                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/About'}><li>About</li></Link>
                     <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Project'}><li>Projects</li></Link>
+                    <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={'/Contact'}><li>Contact</li></Link>
                 </ul>
             </nav>
         </div>
