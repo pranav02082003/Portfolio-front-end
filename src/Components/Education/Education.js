@@ -20,7 +20,7 @@ export default function Education() {
                     <div>
                         <h1 className='heading-edu'>Intermediate(2019-21)</h1>
                         <p className='paragraph'>Sri Chaitanya Jr College</p>
-                        <p className='paragraph'>CGPA-8.14</p>
+                        <p className='paragraph'>Percentage - 92.6</p>
                     </div>
                     <div>
                         <h1 className='heading-edu'>10TH(2018-19)</h1>

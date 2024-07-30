@@ -20,9 +20,8 @@ export default function Project() {
                         </p>
                     </div>
                     <div>
-                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://products-front-end.onrender.com/"}><h1 className='heading-edu'>E-COMMERCE</h1></Link>
-                        <p className='paragraph'>Developed a basic "E-commerce" web application using MERN stack
-                        showcasing my proficiency in Web Development</p>
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to={"https://comparison-front-end.onrender.com"}><h1 className='heading-edu'>Product Price Comparison</h1></Link>
+                        <p className='paragraph'>Designed a interactive website "Product Price Comparison" where we stored products in database and an API and compares the price of the same products showcasing my proficiency in MERN stack Web Development</p>
                     </div>
                 </div>
             </div>
