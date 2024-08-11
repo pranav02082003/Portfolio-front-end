@@ -29,7 +29,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className='second-div'>
-                    <img className='image' src='https://cdn.marvel.com/content/1x/ironman2_lob_mas_hlf_01_1.jpg' alt='profile' />
+                    {/* <img className='image' src='https://cdn.marvel.com/content/1x/ironman2_lob_mas_hlf_01_1.jpg' alt='profile' /> */}
                 </div>
             </div>
         </div>

@@ -28,11 +28,11 @@ export default function Home() {
 
                     </div>
                     <div className='button'>
-                        <Link to={"https://drive.google.com/file/d/1GR1yQKJ_Zd5_rzJegFowL1GnDcacSQQL/view?usp=drive_link"}><button type="button" class="btn btn-info">View Resume</button></Link>
+                        <Link to={"https://drive.google.com/file/d/12LHcYBlSMWkotqysqPUgC0xBTn5lhsaQ/view?usp=drive_link"}><button type="button" class="btn btn-info">View Resume</button></Link>
                     </div>
                 </div>
                 <div>
-                    <img className='img' src='https://cdn.marvel.com/content/1x/ironman2_lob_mas_hlf_01_1.jpg' alt='profile' />
+                    {/* <img className='img' src='https://cdn.marvel.com/content/1x/ironman2_lob_mas_hlf_01_1.jpg' alt='profile' /> */}
                 </div>
 
             </div>
