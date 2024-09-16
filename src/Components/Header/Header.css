@@ -1,9 +1,11 @@
-/* Basic styles */
+/* General Navigation Styles */
 .nav {
     display: flex;
-    justify-content: flex-end;
-    background-color: #333; /* Example background color */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust as needed */
     padding: 10px;
+    position: relative;
 }
 
 .ul-div {
@@ -11,13 +13,13 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Space between list items */
+    gap: 20px;
 }
 
 .ul-div .list {
     margin: 0;
     padding: 10px;
-    color: white; /* Example text color */
+    color: white;
 }
 
 .nav-link {
@@ -25,24 +27,48 @@
     text-decoration: none;
 }
 
-/* Responsive styles */
+/* Mobile Menu Icon */
+.menu-icon {
+    display: none; /* Hide by default on larger screens */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+/* Mobile Menu Styles */
 @media (max-width: 768px) {
-    .nav {
+    .ul-div {
+        display: none; /* Hide menu by default on mobile */
         flex-direction: column;
-        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Adjust based on header height */
+        right: 0;
+        background-color: #333;
+        z-index: 1000; /* Ensure it appears above other content */
     }
 
-    .ul-div {
-        flex-direction: column;
-        gap: 10px;
+    .ul-div.show {
+        display: flex; /* Show menu when toggled */
+    }
+
+    .menu-icon {
+        display: flex; /* Show the menu icon on mobile */
     }
 
     .ul-div .list {
         padding: 15px;
+        text-align: center; /* Center align text on mobile */
     }
 }
 
-/* Add a media query for very small screens if needed */
+/* Optional: Additional media query for very small screens */
 @media (max-width: 480px) {
     .ul-div .list {
         padding: 10px;
