@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
 import Header from '../Header/Header'
-import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -28,7 +27,7 @@ export default function Home() {
 
                     </div>
                     <div className='button'>
-                        <Link to={"https://drive.google.com/file/d/12LHcYBlSMWkotqysqPUgC0xBTn5lhsaQ/view?usp=drive_link"}><button type="button" class="btn btn-info">View Resume</button></Link>
+                        <a href="https://drive.google.com/file/d/12LHcYBlSMWkotqysqPUgC0xBTn5lhsaQ/view?usp=drive_link" target='_blank' rel='noopener noreferrer'><button type="button" class="btn btn-info">View Resume</button></a>
                     </div>
                 </div>
                 <div>

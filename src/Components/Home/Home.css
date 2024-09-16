@@ -24,6 +24,18 @@
     margin-top: 50px;
 }
 
+.icons{
+    display: flex;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: 5px;
+
+    
+}
+.padding-icons{
+    padding-left: 10px;
+}
+
 .heading-div{
     display: flex;
 }

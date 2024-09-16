@@ -7,25 +7,36 @@ export default function Education() {
         <div>
             <Header />
             <div className='background'>
-                
+
                 <div className='first-div'>
                     <div className='portfolio-div'>
                         <p className='portfolio'>E D U C A T I O N</p>
                     </div>
                     <div>
-                        <h1 className='heading-edu'>B-TECH(2021-25)</h1>
-                        <p className='paragraph'>MVGR College Of Engineering</p>
-                        <p className='paragraph'>CGPA-8.14</p>
+                        <h1 className='heading-edu'>Bachelor Of Technology</h1>
+                        <p className='paragraph'>Maharaj Vijayaram Gajapathi Raj College of
+                            Engineering (Autonomous)</p>
+                        <div className='d-flex'>
+                            <span className='paragraph'>2021-25</span>
+                            <p className='paragraph'>Vizianagarm , CGPA-8.14</p>
+                        </div>
                     </div>
                     <div>
-                        <h1 className='heading-edu'>Intermediate(2019-21)</h1>
-                        <p className='paragraph'>Sri Chaitanya Jr College</p>
-                        <p className='paragraph'>Percentage - 92.6</p>
+                        <h1 className='heading-edu'>Intermediate</h1>
+                        <h2 className='paragraph'>Sri Chaitanya Jr College</h2>
+                        <div className='d-flex'>
+                            <span className='paragraph'>2019-21</span>
+                            <p className='paragraph'>Vskp , Percentage - 92.6</p>
+                        </div>
+
                     </div>
                     <div>
-                        <h1 className='heading-edu'>10TH(2018-19)</h1>
+                        <h1 className='heading-edu'>Secondary School</h1>
                         <p className='paragraph'>Marvel School</p>
-                        <p className='paragraph'>CGPA-9.5</p>
+                        <div className='d-flex'>
+                            <span className='paragraph'>2018-19</span>
+                            <p className='paragraph'>Vskp , CGPA-9.5</p>
+                        </div>
                     </div>
                 </div>
                 <div className='second-div'>

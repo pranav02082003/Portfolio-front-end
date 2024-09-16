@@ -1,7 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
 .background{
     background-color: #373A40;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .heading-edu{
@@ -22,6 +30,7 @@
 
 .second-div{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .image{
